@@ -1,10 +1,10 @@
 # Hướng Dẫn Sử Dụng API LICENSE v2.0
 
-## ENDPOINT PANEL MANAGER: <a href="https://apikey.phukhuong79.com" target="_blank" >https://apikey.phukhuong79.com</a>
+### ENDPOINT PANEL MANAGER: <a href="https://apikey.phukhuong79.com" target="_blank" >https://apikey.phukhuong79.com</a>
 
-## SERVER API URL: https://apikey.phukhuong79.com/client/payment
+### SERVER API URL: https://apikey.phukhuong79.com/client/payment
 
-## ACCESS_TOKEN DEMO : `7c0f4afa2c5a539da7b7c8c6e05ddd21`
+### ACCESS_TOKEN DEMO : `7c0f4afa2c5a539da7b7c8c6e05ddd21`
 
 ## Method : GET /create.php
 - Với yêu cầu GET /create.php sẽ khởi tạo thông tin thanh toán.
