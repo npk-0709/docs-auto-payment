@@ -29,6 +29,7 @@ Phản hồi từ API sẽ là một đối tượng JSON chứa Thông Tin:
 }
 ```
 ### Ví Dụ Phản Hồi Thành Công Nhưng Chưa Cập Nhật Thông Tin Thanh Toán
+### Vui Lòng Cập Nhật Ở : https://apikey.phukhuong79.com/views/banking.php
 ```json
 {
     "status": "success",
