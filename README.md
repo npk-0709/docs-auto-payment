@@ -6,6 +6,36 @@
 
 ### ACCESS_TOKEN DEMO : `7c0f4afa2c5a539da7b7c8c6e05ddd21`
 
+## Method : GET /getBank.php
+- Với yêu cầu GET /getBank.php sẽ lấy thông tin thanh toán.
+### Tham Số Yêu Cầu
+Khi gửi yêu cầu GET đến API, bạn cần cung cấp các tham số sau:
+
+- `access_token`:[TYPE=string] AccessToken Lấy Ở Phần Thông Tin Cá Nhân Của Tài Khoản (Bắt Buộc).
+
+### Định Dạng Phản Hồi
+Phản hồi từ API sẽ là một đối tượng JSON chứa Thông Tin:
+
+### Ví Dụ Phản Hồi Thành Công
+```json
+{
+    "status": "success",
+    "data": {
+        "type": "ACB",
+        "stk": "xxxxxxx",
+        "ctk": "NGUYEN PHU KHUONG",
+        "paychar": "paynpk"
+    }
+}
+```
+### Ví Dụ Phản Hồi Thành Công Nhưng Chưa Cập Nhật Thông Tin Thanh Toán
+```json
+{
+    "status": "success",
+    "data": {}
+}
+```
+
 ## Method : GET /create.php
 - Với yêu cầu GET /create.php sẽ khởi tạo thông tin thanh toán.
 ### Tham Số Yêu Cầu
@@ -20,7 +50,7 @@ Khi gửi yêu cầu GET đến API, bạn cần cung cấp các tham số sau:
 ### Định Dạng Phản Hồi
 Phản hồi từ API sẽ là một đối tượng JSON chứa Thông Tin:
 
-### Ví Dụ Phản Hồi Thành Công ( Tìm Thấy API Trong CSDL)
+### Ví Dụ Phản Hồi Thành Công
 ```json
 {
     "status": "success",
@@ -33,7 +63,7 @@ Phản hồi từ API sẽ là một đối tượng JSON chứa Thông Tin:
     }
 }
 ```
-### Ví Dụ Phản Hồi Thất Bại( Không Tìm Thấy API Trong CSDL)
+### Ví Dụ Phản Hồi Thất Bại
 ```json
 {
     "status": "error",
