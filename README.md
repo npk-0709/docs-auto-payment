@@ -1,4 +1,4 @@
-# Hướng Dẫn Sử Dụng API LICENSE v2.0
+# Hướng Dẫn Sử Dụng API Tự Động Thanh Toán
 
 ### ENDPOINT PANEL MANAGER: <a href="https://apikey.phukhuong79.com" target="_blank" >https://apikey.phukhuong79.com</a>
 
